@@ -185,6 +185,7 @@ public class ScreenshotController {
 
     // These strings are used for communicating the action invoked to
     // ScreenshotNotificationSmartActionsProvider.
+    static final String ACTION_TYPE_DELETE = "Delete";
     public static final String EXTRA_ACTION_TYPE = "android:screenshot_action_type";
     public static final String EXTRA_ID = "android:screenshot_id";
     public static final String EXTRA_SMART_ACTIONS_ENABLED = "android:smart_actions_enabled";
